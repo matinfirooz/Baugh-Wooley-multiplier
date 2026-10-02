@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "baugh-wooley-multiplier"
+version = "1.0.0"
+description = "Structural signed Baugh-Wooley multiplier in Python and SystemVerilog"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+baugh-wooley = "baugh_wooley.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["baugh_wooley*"]
