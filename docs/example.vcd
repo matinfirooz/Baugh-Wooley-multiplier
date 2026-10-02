@@ -1,0 +1,159 @@
+$date
+	Fri Oct  2 14:51:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_waveform $end
+$var reg 8 ! A [7:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var reg 8 " B [7:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 16 # O [15:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 16 $ expected [15:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 1 % mismatch $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 8 & S0 [7:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 8 ' S7 [7:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 8 ( C7 [7:0] $end
+$upscope $end
+$scope module tb_waveform $end
+$var wire 8 ) S8 [7:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11111111 )
+b0 (
+b11111111 '
+b10000101 &
+0%
+b1111111111110001 $
+b1111111111110001 #
+b101 "
+b11111101 !
+$end
+#10000
+b0 )
+b1 (
+b11111110 '
+b110 #
+b10000010 &
+b10 "
+0%
+b110 $
+b11 !
+#20000
+b0 (
+b11111111 )
+b11111111 '
+b1111111111110001 #
+b10000011 &
+b11 "
+0%
+b1111111111110001 $
+b11111011 !
+#30000
+b11111111 )
+b1110000 (
+b11111 '
+b1111111111100100 #
+b1111100 &
+b11111100 "
+0%
+b1111111111100100 $
+b111 !
+#40000
+b1 (
+b1000000 #
+b0 )
+b11111110 '
+b10000000 &
+b11111000 "
+0%
+b1000000 $
+b11111000 !
+#50000
+b0 #
+b0 )
+b1 (
+b11111110 '
+b10000000 "
+0%
+b0 $
+b0 !
+#60000
+b111111 )
+b1111111 (
+b10000000 '
+b11111100000001 #
+b11111111 &
+b1111111 "
+0%
+b11111100000001 $
+b1111111 !
+#70000
+b11000000 )
+b0 (
+b10000001 '
+b1100000010000000 #
+b10000000 &
+0%
+b1100000010000000 $
+b10000000 !
+#80000
+b100000000000000 #
+b1000000 )
+b1111110 '
+b10000001 (
+0%
+b100000000000000 $
+b10000000 "
+#90000
+b0 )
+b1 (
+b11111110 '
+b1 #
+b1111111 &
+b11111111 "
+0%
+b1 $
+b11111111 !
+#100000
+b0 )
+b10 (
+b11111111 #
+b11111101 '
+b10000011 &
+b11 "
+0%
+b11111111 $
+b1010101 !
+#110000
+b11111111 )
+b0 (
+b1111111111111111 #
+b11111111 '
+b10000001 &
+b1 "
+0%
+b1111111111111111 $
+b11111111 !
+#120000

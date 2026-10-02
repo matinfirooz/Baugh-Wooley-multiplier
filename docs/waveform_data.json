@@ -1,0 +1,247 @@
+{
+  "source": "example.vcd",
+  "duration_ns": 120.0,
+  "checked_vectors": 12,
+  "samples": [
+    {
+      "start_ns": 0.0,
+      "end_ns": 10.0,
+      "sample_ns": 1.0,
+      "a_signed": -3,
+      "b_signed": 5,
+      "product_signed": -15,
+      "expected_signed": -15,
+      "bits": {
+        "A": 253,
+        "B": 5,
+        "O": 65521,
+        "expected": 65521,
+        "mismatch": 0,
+        "S0": 133,
+        "S7": 255,
+        "C7": 0,
+        "S8": 255
+      }
+    },
+    {
+      "start_ns": 10.0,
+      "end_ns": 20.0,
+      "sample_ns": 11.0,
+      "a_signed": 3,
+      "b_signed": 2,
+      "product_signed": 6,
+      "expected_signed": 6,
+      "bits": {
+        "A": 3,
+        "B": 2,
+        "O": 6,
+        "expected": 6,
+        "mismatch": 0,
+        "S0": 130,
+        "S7": 254,
+        "C7": 1,
+        "S8": 0
+      }
+    },
+    {
+      "start_ns": 20.0,
+      "end_ns": 30.0,
+      "sample_ns": 21.0,
+      "a_signed": -5,
+      "b_signed": 3,
+      "product_signed": -15,
+      "expected_signed": -15,
+      "bits": {
+        "A": 251,
+        "B": 3,
+        "O": 65521,
+        "expected": 65521,
+        "mismatch": 0,
+        "S0": 131,
+        "S7": 255,
+        "C7": 0,
+        "S8": 255
+      }
+    },
+    {
+      "start_ns": 30.0,
+      "end_ns": 40.0,
+      "sample_ns": 31.0,
+      "a_signed": 7,
+      "b_signed": -4,
+      "product_signed": -28,
+      "expected_signed": -28,
+      "bits": {
+        "A": 7,
+        "B": 252,
+        "O": 65508,
+        "expected": 65508,
+        "mismatch": 0,
+        "S0": 124,
+        "S7": 31,
+        "C7": 112,
+        "S8": 255
+      }
+    },
+    {
+      "start_ns": 40.0,
+      "end_ns": 50.0,
+      "sample_ns": 41.0,
+      "a_signed": -8,
+      "b_signed": -8,
+      "product_signed": 64,
+      "expected_signed": 64,
+      "bits": {
+        "A": 248,
+        "B": 248,
+        "O": 64,
+        "expected": 64,
+        "mismatch": 0,
+        "S0": 128,
+        "S7": 254,
+        "C7": 1,
+        "S8": 0
+      }
+    },
+    {
+      "start_ns": 50.0,
+      "end_ns": 60.0,
+      "sample_ns": 51.0,
+      "a_signed": 0,
+      "b_signed": -128,
+      "product_signed": 0,
+      "expected_signed": 0,
+      "bits": {
+        "A": 0,
+        "B": 128,
+        "O": 0,
+        "expected": 0,
+        "mismatch": 0,
+        "S0": 128,
+        "S7": 254,
+        "C7": 1,
+        "S8": 0
+      }
+    },
+    {
+      "start_ns": 60.0,
+      "end_ns": 70.0,
+      "sample_ns": 61.0,
+      "a_signed": 127,
+      "b_signed": 127,
+      "product_signed": 16129,
+      "expected_signed": 16129,
+      "bits": {
+        "A": 127,
+        "B": 127,
+        "O": 16129,
+        "expected": 16129,
+        "mismatch": 0,
+        "S0": 255,
+        "S7": 128,
+        "C7": 127,
+        "S8": 63
+      }
+    },
+    {
+      "start_ns": 70.0,
+      "end_ns": 80.0,
+      "sample_ns": 71.0,
+      "a_signed": -128,
+      "b_signed": 127,
+      "product_signed": -16256,
+      "expected_signed": -16256,
+      "bits": {
+        "A": 128,
+        "B": 127,
+        "O": 49280,
+        "expected": 49280,
+        "mismatch": 0,
+        "S0": 128,
+        "S7": 129,
+        "C7": 0,
+        "S8": 192
+      }
+    },
+    {
+      "start_ns": 80.0,
+      "end_ns": 90.0,
+      "sample_ns": 81.0,
+      "a_signed": -128,
+      "b_signed": -128,
+      "product_signed": 16384,
+      "expected_signed": 16384,
+      "bits": {
+        "A": 128,
+        "B": 128,
+        "O": 16384,
+        "expected": 16384,
+        "mismatch": 0,
+        "S0": 128,
+        "S7": 126,
+        "C7": 129,
+        "S8": 64
+      }
+    },
+    {
+      "start_ns": 90.0,
+      "end_ns": 100.0,
+      "sample_ns": 91.0,
+      "a_signed": -1,
+      "b_signed": -1,
+      "product_signed": 1,
+      "expected_signed": 1,
+      "bits": {
+        "A": 255,
+        "B": 255,
+        "O": 1,
+        "expected": 1,
+        "mismatch": 0,
+        "S0": 127,
+        "S7": 254,
+        "C7": 1,
+        "S8": 0
+      }
+    },
+    {
+      "start_ns": 100.0,
+      "end_ns": 110.0,
+      "sample_ns": 101.0,
+      "a_signed": 85,
+      "b_signed": 3,
+      "product_signed": 255,
+      "expected_signed": 255,
+      "bits": {
+        "A": 85,
+        "B": 3,
+        "O": 255,
+        "expected": 255,
+        "mismatch": 0,
+        "S0": 131,
+        "S7": 253,
+        "C7": 2,
+        "S8": 0
+      }
+    },
+    {
+      "start_ns": 110.0,
+      "end_ns": 120.0,
+      "sample_ns": 111.0,
+      "a_signed": -1,
+      "b_signed": 1,
+      "product_signed": -1,
+      "expected_signed": -1,
+      "bits": {
+        "A": 255,
+        "B": 1,
+        "O": 65535,
+        "expected": 65535,
+        "mismatch": 0,
+        "S0": 129,
+        "S7": 255,
+        "C7": 0,
+        "S8": 255
+      }
+    }
+  ]
+}
